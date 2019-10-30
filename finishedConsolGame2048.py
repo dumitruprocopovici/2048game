@@ -56,7 +56,7 @@ def new_element(masa):
 
 
 def display_board(masa):
-    system('cls')
+    system('clear')
     print("------------------------------\n")
     print(possible_values[masa[0][0]] + " | "
           + possible_values[masa[0][1]] + " | "
